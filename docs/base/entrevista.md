@@ -15,14 +15,13 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 
 ### Roteiro
 
-- Você.... ?
-- Como funcionava.... ?
-- Você já usou alguma aplicação.... 
-- Teve algum problema.... ?
-- O que você acha de uma aplicação..... ?
-- Para você qual seria o sistema ideal.... ?
-- Você gostaria de poder se cadastrar..... 
-- você gostaria que as informações... 
+- Por que você criou um canal de highlights no tik tok ?
+- Como funciona a seleção de midia para o seu conteúdo ?
+- Você já usou alguma aplicação que reune melhores momentos dos esportes ?
+- Teve algum problema com seu conteúdo, como direitos autorais ?
+- O que você acha de uma aplicação que recomendaria melhores moementos do esporte para o usuário, com base em seus gostos ?
+- Você gostaria de poder se cadastrar na aplicação ?
+- você gostaria que os melhores momentos viessem com uma descriação ou resumo e data ?
 
 
 ## Entrevistas 
@@ -87,6 +86,6 @@ Através da aplicação da técnica, foi possível elicitar alguns requisitos im
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | xxx XXXX |
+| 03/09/2024 | 1.0 | Criação do documento | Fellipe Valladares |
 | DD/MM/YYYY | 2.0 | Adição da entrevista 1 | XXX XXXX | 
 | DD/MM/YYYY | 2.1 | Adição dos requisitos elicitados e conclusão | XXXX XXXXX | 
