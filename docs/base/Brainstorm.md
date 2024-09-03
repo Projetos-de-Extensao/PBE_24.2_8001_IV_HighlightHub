@@ -10,7 +10,7 @@ O brainstorm é uma técnica de elicitação de requisitos que consiste em reuni
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
+A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, começou 17:45 e terminou..., onde o João Pedro Abdu foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
  
 ## Brainstorm
@@ -22,10 +22,10 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa...
+<b>João Pedro Abdu</b> - Deve ser uma plataforma onde qualquer pessoa possa visualizar e acessar videos e audios dos melhores momentos dos esportes.
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornece...
+<b>Fellipe Valladares</b> - A plataforma deve ser de fácil uso, mostrando as mídias de maneira direta.
  
 <b>YYYY</b> - O objetivo da aplicação é....
  
@@ -39,9 +39,9 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 2. Como será o processo para cadastrar um novo clientetorneio?
  
 <p align = "justify">
-<b>XXXX</b> - O moderador deverá fazer login e...
+<b>Fellipe Valladares</b> - Ao acessar o site o cliente deve criar sua conta e selecionar suas preferências de conteúdo para facilitar o algoritmo.
  
-<b>YYYY</b> - O cliente...
+<b>João Pedro Abdu</b> - O cliente pode se cadastrar no site, ou nao, através de um botão "Login/Criar Conta". 
  
 <b>WWWW</b> - Com o usuário logado, ele deverá...
 
@@ -51,14 +51,14 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
  
 ---
  
-### 3. Como será a forma de adicionar produtos?
+### 3. Como será a forma de adicionar mídias?
  
 <p align = "justify">
-<b>XXXX</b> - O cliente ao cadastrar...
+<b>João Pedro Abdu</b> - As mídias seriam enviadas para o site através de uploads dos administradores.
 </p>
  
 <p align = "justify">
-<b>YYYYY</b> - O produto tem...
+<b>Fellipe Valladares</b> - Os moderadores criariam um post com um resumo e um clipe/audio/video.
 </p>
  
 <b>ZZZZ</b> - O produto....
@@ -81,16 +81,19 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
  
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
 <p align = "justify">
-<b>XXX</b> - O cliente....
+<b>João Pedro Abdu</b> - O cliente nao poderá enviar mídia.
+</p>
+<p align = "justify">
+<b>Fellipe Valladares</b> - O cliente poderia criar um post que passaria pela moderação para ser liberado ou nao.
 </p>
  
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
    <b>XXX</b> - Informações...
    
-   <b>ZZZZ</b> - O cliente usuário poderá acessar informações...
+   <b>João Pedro Abdu</b> - O cliente usuário poderá acessar as informações a respeito da mídia que o mesmo estará visualizando clicando no post.
 
-   <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
+   <b>Fellipe Valladares</b> - A data e uma descrição do momento são informações importante no post.
    
 </p>
  
@@ -98,11 +101,11 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
  
 |ID|Descrição|
 |----|-------------|
-|BS01| O cliente...|
-|BS02| O cliente...|
-|BS03| O cliente...|
-|BS04| O cliente...|
-|BS05| O cliente...|
+|BS01| Login/Cadastro|
+|BS02| Sistema de Post com Texto e Mídia|
+|BS03| Autentificação dois fatores|
+|BS04| Configurar a conta|
+|BS05| Filtragem por categorias|
 |BS06| O cliente...|
 |BS07| O cliente...|
 |BS08| O cliente...|
@@ -126,4 +129,4 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | XXX XXXX, XXXX XXXX, YYY YYYY e ZZZ XXXX |
+| 03/09/2024 | 1.0 | Criação do documento | João Pedro Abdu, Fellipe Valladares, Hugo Farias Watzl Barreto e André Luiz Mendes do Nascimento Ribeiro |
