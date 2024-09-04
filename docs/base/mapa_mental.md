@@ -19,7 +19,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ## Versão 1.0
 
-[Nosso Mapa mental ](https://www.canva.com/design/DAGPvFE0T1E/29YFuLMt0KcQkMXmNEeZrg/edit?utm_content=DAGPvFE0T1E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Mapa mental Highlight Hub ](https://www.canva.com/design/DAGPvFE0T1E/29YFuLMt0KcQkMXmNEeZrg/edit?utm_content=DAGPvFE0T1E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
  
 ### Mapa mental 1
  
