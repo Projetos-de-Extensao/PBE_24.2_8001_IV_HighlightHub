@@ -59,7 +59,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come√
 <b>Fellipe Valladares</b> - Os moderadores criariam um post com um resumo e um clipe/audio/video.
 </p>
  
-<b>Hugo Farais</b> - A equipe vai buscar e publicar os melhores momentos dos esportes.
+<b>Hugo Farias</b> - A equipe vai buscar e publicar os melhores momentos dos esportes.
  
 <b>XXXX</b> - O produto....
 
