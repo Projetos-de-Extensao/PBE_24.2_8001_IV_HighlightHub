@@ -27,7 +27,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
  
 <b>Fellipe Valladares</b> - A plataforma deve ser de fácil uso, mostrando as mídias de maneira direta.
  
-<b>YYYY</b> - O objetivo da aplicação é....
+<b>Hugo Farias</b> -A ideia é ser uma plataforma onde qualquer pessoa possa acessar e assistir os melhores momentos dos jogos e competições esportivas
  
 <b>WWWW</b> - O principal objetivo da aplicação é a...
  
@@ -43,11 +43,9 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
  
 <b>João Pedro Abdu</b> - O cliente pode se cadastrar no site, ou nao, através de um botão "Login/Criar Conta". 
  
-<b>WWWW</b> - Com o usuário logado, ele deverá...
+<b>Hugo Farias</b> - O cliente pode personalizar sua experiência na plataforma, apos logado, ajustando suas preferências esportivas e depois acessando o conteúdo de acordo com seus interesses.
 
 <b>ZZZZ</b> - O cliente...
- 
-<b>KKK</b> - O cliente...
  
 ---
  
@@ -61,7 +59,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
 <b>Fellipe Valladares</b> - Os moderadores criariam um post com um resumo e um clipe/audio/video.
 </p>
  
-<b>ZZZZ</b> - O produto....
+<b>Hugo Farais</b> - A equipe vai buscar e publicar os melhores momentos dos esportes.
  
 <b>XXXX</b> - O produto....
 
@@ -86,10 +84,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
 <p align = "justify">
 <b>Fellipe Valladares</b> - O cliente poderia criar um post que passaria pela moderação para ser liberado ou nao.
 </p>
- 
+<p align = "justify">
+<b>Hugo Farias</b> - Os usuários não poderam publicar mídias.
+</p>
+
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
-   <b>XXX</b> - Informações...
+   <b>Hugo Farias</b> - O cliente pode personalizar seu perfil conforme suas equipes e esportes favoritos.
    
    <b>João Pedro Abdu</b> - O cliente usuário poderá acessar as informações a respeito da mídia que o mesmo estará visualizando clicando no post.
 
