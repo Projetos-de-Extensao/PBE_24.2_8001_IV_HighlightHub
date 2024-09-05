@@ -77,6 +77,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
 <b>André Ribeiro</b> - Os usuários serão capazes de enviar mídias sob supervisão da moderação.
 </p>
 
+---
 
 ### 5. Quais informações seriam interessante para o cliente?
 <p align = "justify">
@@ -89,6 +90,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
    <b>André Ribeiro</b> - O cliente terá acesso a lances de destaque nos esportes e com a devida checagem de autenticidade sobre as informações.
    
 </p>
+
+---
  
 ### Requisitos elicitados
  
