@@ -28,6 +28,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
 <b>Fellipe Valladares</b> - A plataforma deve ser de fácil uso, mostrando as mídias de maneira direta.
  
 <b>Hugo Farias</b> -A ideia é ser uma plataforma onde qualquer pessoa possa acessar e assistir os melhores momentos dos jogos e competições esportivas
+
+<b>André Ribeiro</b>O objetivo é que ela seja de fácil acesso, para que qualquer pessoa seja capaz de ver os melhores momentos dos jogos.
  
 <b>WWWW</b> - O principal objetivo da aplicação é a...
  
@@ -45,6 +47,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
  
 <b>Hugo Farias</b> - O cliente pode personalizar sua experiência na plataforma, apos logado, ajustando suas preferências esportivas e depois acessando o conteúdo de acordo com seus interesses.
 
+<b>André Ribeiro</b> O cliente terá uma área exclusiva para logar e outra para cadastrar. Uma vez cadastrado, será solicitado que ele selecione quais são seus interesses principais.
+
 <b>ZZZZ</b> - O cliente...
  
 ---
@@ -60,6 +64,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
 </p>
  
 <b>Hugo Farias</b> - A equipe vai buscar e publicar os melhores momentos dos esportes.
+
+<b>André Ribeiro</b>A equipe terá um sistema para que pessoas possam enviar videos e, após passar pelos moderadores, "upar" no site.
  
 <b>XXXX</b> - O produto....
 
@@ -85,8 +91,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
 <b>Fellipe Valladares</b> - O cliente poderia criar um post que passaria pela moderação para ser liberado ou nao.
 </p>
 <p align = "justify">
-<b>Hugo Farias</b> - Os usuários não poderam publicar mídias.
+<b>Hugo Farias</b> - Os usuários não poderão publicar mídias.
 </p>
+
+<p align = "justify">
+<b>André Ribeiro</b>Os usuários serão capazes de enviar mídias sob supervisão da moderação.
+</p>
+
 
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
@@ -95,6 +106,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
    <b>João Pedro Abdu</b> - O cliente usuário poderá acessar as informações a respeito da mídia que o mesmo estará visualizando clicando no post.
 
    <b>Fellipe Valladares</b> - A data e uma descrição do momento são informações importante no post.
+
+   <b>André Ribeiro</b>O cliente terá acesso a lances de destaque nos esportes e com a devida checagem de autenticidade sobre as informações.
    
 </p>
  
