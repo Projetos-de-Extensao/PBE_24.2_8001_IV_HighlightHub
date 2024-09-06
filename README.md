@@ -1,4 +1,4 @@
-# NomedoProjeto : **HighlightHub**
+# **HighlightHub**
 
 **Número do Grupo**: IV<br>
 
