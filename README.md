@@ -1,7 +1,7 @@
 # NomedoProjeto : **HighlightHub**
 
-**Número do Grupo**: 4<br>
-**Código da Disciplina**: FGA0208-T01<br>
+**Número do Grupo**: IV<br>
+
 
 ## Alunos
 |Matrícula | Aluno |
