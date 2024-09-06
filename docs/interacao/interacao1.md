@@ -14,16 +14,16 @@ title: Interação 1
 |Tarefa|Responsabilidade|
 |---|----|
 | Decidir o nome o projeto.|Todos|
-| Criar o repositório nos padrões (Organizar wiki).| Matheus|
-| Criar issues no GitHub / ZenHub| Renan|
-| Configuração do grupo do Telegram(configurar bot).|Moacir|
+| Criar o repositório nos padrões (Organizar wiki).| Fellipe|
+| Criar issues no GitHub / ZenHub| Joao Pedro|
+| Configuração do grupo do Telegram(configurar bot).|Fellipe|
 | Estudar e escolher as metodologias.| Todos|
-| [Documento de visão](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-| Elaborar [5w2H](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-| [Mapas Mentais](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-| [Brainstorming](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Brainstorm.md) |Todos|
-|[Entrevistas](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-|[Prototipação.](https://github.com/xxx/xxx.md) |XXX e XXXXX|
+| [Documento de visão](https://github.com/xxx/xxx.md) |Fellipe|
+| Elaborar [5w2H](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/5w2h.md) |Fellipe e João Pedro|
+| [Mapas Mentais](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/mapa_mental.md) |Hugo|
+| [Brainstorming](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/Brainstorm.md) |Todos|
+|[Entrevistas](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/entrevista.md) |Fellipe|
+|[Prototipação.](https://github.com/xxx/xxx.md) |Joao Pedro|
 
 ## Sprint Retrospective/Review Meeting
 
