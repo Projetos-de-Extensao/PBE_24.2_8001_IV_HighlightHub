@@ -13,24 +13,16 @@ title: Interação 1
 
 |Tarefa|Responsabilidade|
 |---|----|
-| Decidir o nome o projeto.|Todos|
-| Criar o repositório nos padrões (Organizar wiki).| Matheus|
-| Criar issues no GitHub / ZenHub| Renan|
-| Configuração do grupo do Telegram(configurar bot).|Moacir|
-| Estudar e escolher as metodologias.| Todos|
-| [Documento de visão](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-| Elaborar [5w2H](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-| [Mapas Mentais](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-| [Brainstorming](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Brainstorm.md) |Todos|
-|[Entrevistas](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-|[Prototipação.](https://github.com/xxx/xxx.md) |XXX e XXXXX|
+| Criar issues no GitHub / ZenHub| João Pedro|
+| [Documento de visão](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/edit/main/docs/base/documento_de_visao.md) |Fellipe e André|
+|[Prototipação.](https://github.com/xxx/xxx.md) |João Pedro e Hugo|
 
 ## Sprint Retrospective/Review Meeting
 
 #### Presentes na reunião: XXXX
 
 ### Dividas da Interação
-- 
+- XXX
 - 
 - 
 - 
@@ -42,7 +34,7 @@ title: Interação 1
 
 ### Pontos Positivos
 
--
+- XXX
 -
 - 
 -
@@ -50,16 +42,14 @@ title: Interação 1
 
 ### Pontos Negativos
 
--
+- XXX
 -
 - 
 -
 ![pontos negativos](../assets/Sprints/S1-negativos.png)
 
 ### O que podemos melhorar?
-- Ter mais foco na reuniões para evitar o desperdício de tempo.
-- A equipe deve ter mais autonomia em relação à falta de membros.
-- Podemos utilizar algo ferramenta de timebox para maior efetividade nas reuniões, sugestão: https://timebox.cedrotech.com/
+- XXX
 
 
 ### Ferramentas utilizadas
