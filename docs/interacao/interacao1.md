@@ -18,12 +18,10 @@ title: Interação 1
 | Criar issues no GitHub / ZenHub| Joao Pedro|
 | Configuração do grupo do Telegram(configurar bot).|Fellipe|
 | Estudar e escolher as metodologias.| Todos|
-| [Documento de visão](https://github.com/xxx/xxx.md) |Fellipe|
 | Elaborar [5w2H](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/5w2h.md) |Fellipe e João Pedro|
 | [Mapas Mentais](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/mapa_mental.md) |Hugo|
 | [Brainstorming](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/Brainstorm.md) |Todos|
-|[Entrevistas](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/entrevista.md) |Fellipe|
-|[Prototipação.](https://github.com/xxx/xxx.md) |Joao Pedro|
+| [Entrevistas](https://github.com/Projetos-de-Extensao/PBE_24.2_8001_IV_HighlightHub/blob/main/docs/base/entrevista.md) |Fellipe|
 
 ## Sprint Retrospective/Review Meeting
 
