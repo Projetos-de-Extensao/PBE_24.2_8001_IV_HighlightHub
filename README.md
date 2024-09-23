@@ -13,7 +13,7 @@
 
 
 ## Sobre 
-Nosso projeto é um sistema de uma aplicação qque tem o objetivo de servir como um streaming de audio e video sobre melhores momentos de esportes, com videos de curtos e de média duração.
+Nosso projeto é um sistema de uma aplicação que tem o objetivo de servir como um streaming de audio e video que contenha melhores momentos de esportes, se baseando em videos curtos e de média duração além de audios históricos de esportes.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
