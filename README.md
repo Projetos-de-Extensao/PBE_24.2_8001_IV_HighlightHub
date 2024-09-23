@@ -13,7 +13,7 @@
 
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+Nosso projeto é um sistema de uma aplicação qque tem o objetivo de servir como um streaming de audio e video sobre melhores momentos de esportes, com videos de curtos e de média duração.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
