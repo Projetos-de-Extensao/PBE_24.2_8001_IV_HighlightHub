@@ -37,8 +37,6 @@
 
 ---
 
-# Casos de Uso - Highlights Hub
-
 ## Caso de Uso - Pesquisar Posts
 **Pré-Condições:**
 - O usuário está logado no HighlightHub.
