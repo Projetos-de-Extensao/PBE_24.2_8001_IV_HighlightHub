@@ -46,7 +46,7 @@ class Relatorio:
         self.feedbacks = feedbacks
 
     def gerar_relatorio(self):
-        return f"Relatório com {len(self.feedbacks)} feedbacks."
+        pass
 
 class Administrador:
     def __init__(self, id: int, nome: str, email: str):
@@ -72,27 +72,19 @@ class Sistema:
         self.recompensas = []
 
     def registrar_feedback(self, membro: Membro, feedback: Feedback):
-        membro.feedbacks.append(feedback)
-        self.feedbacks.append(feedback)
-        print(f"Feedback registrado para o membro {membro.nome}")
+        pass
 
     def visualizar_feedback(self) -> List[Feedback]:
-        return self.feedbacks
+        pass
 
     def analisar_feedback(self) -> Relatorio:
-        relatorio = Relatorio(feedbacks=self.feedbacks)
-        return relatorio
+        pass
 
     def registrar_convite(self, membro: Membro, convite: Convite):
-        membro.convites.append(convite)
-        self.convites.append(convite)
-        print(f"Convite registrado: {membro.nome} convidou {convite.convidado.nome}")
+        pass
 
     def validar_convite(self, convite: Convite):
-        convite.status = "aprovado"
-        print(f"Convite aprovado para {convite.convidado.nome}")
+        pass
 
     def conceder_recompensa(self, membro: Membro, recompensa: Recompensa):
-        membro.recompensas.append(recompensa)
-        self.recompensas.append(recompensa)
-        print(f"Recompensa concedida a {membro.nome}: {recompensa.tipo} no valor de {recompensa.valor}")
+        pass
