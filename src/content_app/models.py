@@ -24,36 +24,29 @@ class Content(models.Model):
 
     def __str__(self):
         return self.title
-    
+
 class Membro:
     def __init__(self, id: int, nome: str, email: str):
         self.id = id
         self.nome = nome
         self.email = email
-        self.referencias = []  # Lista de referências feitas pelo membro
-        self.feedbacks = []    # Lista de feedbacks fornecidos pelo membro
-
-class Plataforma:
-    def __init__(self, id: int, nome: str, categoria: str):
-        self.id = id
-        self.nome = nome
-        self.categoria = categoria
+        self.convites = []
+        self.feedbacks = []
+        self.recompensas = []
 
 class Feedback:
-    def __init__(self, id: int, cliente: Membro, plataforma: Plataforma, comentario: str, data: date):
+    def __init__(self, id: int, membro: Membro, comentario: str, data: date):
         self.id = id
-        self.cliente = cliente
-        self.plataforma = plataforma
+        self.membro = membro
         self.comentario = comentario
         self.data = data
 
 class Relatorio:
-    def __init__(self, id: int, feedbacks: List[Feedback]):
-        self.id = id
+    def __init__(self, feedbacks: List[Feedback]):
         self.feedbacks = feedbacks
 
     def gerar_relatorio(self):
-        return f"Relatório {self.id} com {len(self.feedbacks)} feedbacks."
+        return f"Relatório com {len(self.feedbacks)} feedbacks."
 
 class Administrador:
     def __init__(self, id: int, nome: str, email: str):
@@ -61,48 +54,45 @@ class Administrador:
         self.nome = nome
         self.email = email
 
-class Referencia:
-    def __init__(self, id: int, membro_referenciador: Membro, membro_referenciado: Membro, status: str):
-        self.id = id
-        self.membro_referenciador = membro_referenciador
-        self.membro_referenciado = membro_referenciado
-        self.status = status  # Exemplo: "pendente", "aprovada"
+class Convite:
+    def __init__(self, convidador: Membro, convidado: Membro, status: str):
+        self.convidador = convidador
+        self.convidado = convidado
+        self.status = status
 
 class Recompensa:
-    def __init__(self, id: int, tipo: str, valor: float):
-        self.id = id
+    def __init__(self, tipo: str, valor: float):
         self.tipo = tipo
         self.valor = valor
 
 class Sistema:
     def __init__(self):
         self.feedbacks = []
-        self.referencias = []
+        self.convites = []
         self.recompensas = []
 
-    # Funções de feedback
-    def registrar_feedback(self, cliente: Membro, feedback: Feedback):
-        cliente.feedbacks.append(feedback)
+    def registrar_feedback(self, membro: Membro, feedback: Feedback):
+        membro.feedbacks.append(feedback)
         self.feedbacks.append(feedback)
-        print(f"Feedback registrado para o cliente {cliente.nome}")
+        print(f"Feedback registrado para o membro {membro.nome}")
 
     def visualizar_feedback(self) -> List[Feedback]:
         return self.feedbacks
 
     def analisar_feedback(self) -> Relatorio:
-        relatorio = Relatorio(id=1, feedbacks=self.feedbacks)
+        relatorio = Relatorio(feedbacks=self.feedbacks)
         return relatorio
 
-    # Funções de referência e recompensa
-    def registrar_referencia(self, membro: Membro, referencia: Referencia):
-        membro.referencias.append(referencia)
-        self.referencias.append(referencia)
-        print(f"Referência registrada: {membro.nome} referenciou {referencia.membro_referenciado.nome}")
+    def registrar_convite(self, membro: Membro, convite: Convite):
+        membro.convites.append(convite)
+        self.convites.append(convite)
+        print(f"Convite registrado: {membro.nome} convidou {convite.convidado.nome}")
 
-    def validar_referencia(self, referencia: Referencia):
-        referencia.status = "aprovada"
-        print(f"Referência {referencia.id} aprovada para {referencia.membro_referenciado.nome}")
+    def validar_convite(self, convite: Convite):
+        convite.status = "aprovado"
+        print(f"Convite aprovado para {convite.convidado.nome}")
 
     def conceder_recompensa(self, membro: Membro, recompensa: Recompensa):
+        membro.recompensas.append(recompensa)
         self.recompensas.append(recompensa)
         print(f"Recompensa concedida a {membro.nome}: {recompensa.tipo} no valor de {recompensa.valor}")
