@@ -26,16 +26,16 @@ class Content(models.Model):
         return self.title
 
 class Membro:
-    def __init__(self, id: int, nome: str, email: str):
+    def __init__(self, id, nome, email):
         self.id = id
         self.nome = nome
         self.email = email
-        self.convites = []
-        self.feedbacks = []
-        self.recompensas = []
+        self.convites: List[Convite] = []
+        self.feedbacks: List[Feedback] = []
+        self.recompensas: List[Recompensa] = []
 
 class Feedback:
-    def __init__(self, id: int, membro: Membro, comentario: str, data: date):
+    def __init__(self, id, membro: Membro, comentario, data: date):
         self.id = id
         self.membro = membro
         self.comentario = comentario
@@ -49,27 +49,27 @@ class Relatorio:
         pass
 
 class Administrador:
-    def __init__(self, id: int, nome: str, email: str):
+    def __init__(self, id, nome, email):
         self.id = id
         self.nome = nome
         self.email = email
 
 class Convite:
-    def __init__(self, convidador: Membro, convidado: Membro, status: str):
+    def __init__(self, convidador: Membro, convidado: Membro, status):
         self.convidador = convidador
         self.convidado = convidado
         self.status = status
 
 class Recompensa:
-    def __init__(self, tipo: str, valor: float):
+    def __init__(self, tipo, valor):
         self.tipo = tipo
         self.valor = valor
 
 class Sistema:
     def __init__(self):
-        self.feedbacks = []
-        self.convites = []
-        self.recompensas = []
+        self.feedbacks: List[Feedback] = []
+        self.convites: List[Convite] = []
+        self.recompensas: List[Recompensa] = []
 
     def registrar_feedback(self, membro: Membro, feedback: Feedback):
         pass
