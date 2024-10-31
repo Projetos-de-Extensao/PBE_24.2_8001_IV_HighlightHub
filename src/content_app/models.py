@@ -30,9 +30,9 @@ class Membro:
         self.id = id
         self.nome = nome
         self.email = email
-        self.convites: List[Convite] = []
-        self.feedbacks: List[Feedback] = []
-        self.recompensas: List[Recompensa] = []
+        self.convites = []
+        self.feedbacks = []
+        self.recompensas = []
 
 class Feedback:
     def __init__(self, id, membro: Membro, comentario, data: date):
@@ -42,7 +42,7 @@ class Feedback:
         self.data = data
 
 class Relatorio:
-    def __init__(self, feedbacks: List[Feedback]):
+    def __init__(self, feedbacks):
         self.feedbacks = feedbacks
 
     def gerar_relatorio(self):
@@ -67,17 +67,17 @@ class Recompensa:
 
 class Sistema:
     def __init__(self):
-        self.feedbacks: List[Feedback] = []
-        self.convites: List[Convite] = []
-        self.recompensas: List[Recompensa] = []
+        self.feedbacks = []
+        self.convites = []
+        self.recompensas = []
 
     def registrar_feedback(self, membro: Membro, feedback: Feedback):
         pass
 
-    def visualizar_feedback(self) -> List[Feedback]:
+    def visualizar_feedback(self):
         pass
 
-    def analisar_feedback(self) -> Relatorio:
+    def analisar_feedback(self):
         pass
 
     def registrar_convite(self, membro: Membro, convite: Convite):
