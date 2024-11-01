@@ -1,7 +1,6 @@
 from django.shortcuts import render
 
 # Create your views here.
-# views.py in Member_Get_Member
 
 from rest_framework import viewsets
 from .models import Convite, Recompensa, Sistema

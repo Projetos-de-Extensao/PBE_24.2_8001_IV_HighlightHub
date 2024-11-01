@@ -1,4 +1,3 @@
-# serializers.py in Member_Get_Member
 
 from rest_framework import serializers
 from .models import Convite, Recompensa, Sistema

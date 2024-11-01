@@ -1,4 +1,3 @@
-# urls.py in Member_Get_Member
 
 from rest_framework.routers import DefaultRouter
 from .views import ConviteViewSet, RecompensaViewSet, SistemaViewSet
