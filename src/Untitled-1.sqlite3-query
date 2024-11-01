@@ -1,0 +1,21 @@
+-- database: ./db.sqlite3
+
+SELECT * FROM auth_group;
+CREATE TABLE Feedback_feedback (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    membro_id INTEGER REFERENCES auth_user(id) ON DELETE CASCADE,
+    comentario TEXT,
+    data DATE DEFAULT CURRENT_DATE
+);
+CREATE TABLE Feedback_administrador (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES auth_user(id) ON DELETE CASCADE
+);
+CREATE TABLE Feedback_relatorio (
+    id INTEGER PRIMARY KEY AUTOINCREMENT
+);
+CREATE TABLE Feedback_relatorio_feedbacks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    relatorio_id INTEGER REFERENCES Feedback_relatorio(id) ON DELETE CASCADE,
+    feedback_id INTEGER REFERENCES Feedback_feedback(id) ON DELETE CASCADE
+);
