@@ -18,6 +18,6 @@ class Feedback(models.Model):
 
 class Relatorio(models.Model):
     feedbacks = models.ManyToManyField(Feedback)
-
+    
     def gerar_relatorio(self):
         return f"Relatório contendo {self.feedbacks.count()} feedback(s)."
