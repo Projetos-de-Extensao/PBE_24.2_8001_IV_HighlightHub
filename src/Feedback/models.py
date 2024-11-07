@@ -10,15 +10,14 @@ class Membro(models.Model):
 
 class Feedback(models.Model):
     FEEDBACK_TYPES = [
-        ('POSITIVO', 'Positivo'),
-        ('NEGATIVO', 'Negativo'),
-        ('SUGESTAO', 'Sugestão'),
+        ('SUGESTAO', 'Sugestao'),
+        ('COMENTARIO', 'Comentario'),
+        ('ERRO', 'Erro'),
     ]
-
     membro = models.ForeignKey(Membro, on_delete=models.CASCADE, related_name='feedbacks')
     comentario = models.TextField()
     data = models.DateField(default=date.today)
-    avaliacao = models.CharField(max_length=10, choices=FEEDBACK_TYPES, default='Positivo')
+    avaliacao = models.CharField(max_length=10, choices=FEEDBACK_TYPES, default='Comentario')
 
     def __str__(self):
         return f"{self.membro.user.username} - {self.comentario[:20]}"
