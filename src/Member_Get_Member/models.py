@@ -10,17 +10,23 @@ class Convite(models.Model):
         ('expirado', 'Expirado'),
     ]
 
-    link = models.URLField()
+    uuid = models.UUIDField(default=uuid.uuid4, editable=False, unique=True, null=True)
     convidador = models.ForeignKey(Membro, on_delete=models.CASCADE, related_name='convites_enviados')
-    convidado = models.ForeignKey(Membro, on_delete=models.SET_NULL, null=True, blank=True, related_name='convites_recebidos')
+    convidado_email = models.EmailField(null=True)  # Agora armazenamos o email do convidado
     status = models.CharField(max_length=20, choices=STATUS_CONVITE, default='pendente')
     data_criacao = models.DateTimeField(default=timezone.now)
     data_expiracao = models.DateTimeField()  # Data de validade do convite
-    limite = models.IntegerField(default=1)
+    limite = models.IntegerField(default=10)
+
 
     def __str__(self):
-        convidado_nome = self.convidado.user.username if self.convidado else 'Pendente'
-        return f"Convite de {self.convidador.user.username} para {convidado_nome} - {self.status}"
+        return f"Convite de {self.convidador.user.username} para {self.convidado_email} - {self.status}"
+
+    def save(self, *args, **kwargs):
+        # Define data_expiracao como 30 dias a partir da data atual, se não estiver definida
+        if not self.data_expiracao:
+            self.data_expiracao = timezone.now() + timezone.timedelta(days=30)
+        super().save(*args, **kwargs)
 
     def is_valid(self):
         """Verifica se o convite ainda é válido com base na data de expiração."""
@@ -55,22 +61,23 @@ class Sistema(models.Model):
         relatorio.feedbacks.set(self.feedbacks.all())
         return relatorio.gerar_relatorio()
 
-    def registrar_convite(self, membro, data_expiracao):
+    def registrar_convite(self, membro, convidado_email):
         # Limite de convites (exemplo: máximo de 5 convites por usuário)
         if membro.convites_enviados.filter(status='pendente').count() >= 5:
             raise ValueError("Limite de convites pendentes atingido")
 
-        convite = Convite.objects.create(convidador=membro, data_expiracao=data_expiracao)
+        # O convidador agora é o membro que está enviando o convite
+        convite = Convite.objects.create(convidador=membro, convidado_email=convidado_email)
         self.convites.add(convite)
         return convite
 
-    def validar_convite(self, convite, convidado):
+    def validar_convite(self, convite, convidado_email):
         # Verifica a validade do convite
         if not convite.is_valid():
             raise ValueError("Este convite expirou e não pode mais ser utilizado")
 
         convite.status = 'aceito'
-        convite.convidado = convidado
+        convite.convidado_email = convidado_email  # Atualiza o email do convidado
         convite.save()
         return convite
 
