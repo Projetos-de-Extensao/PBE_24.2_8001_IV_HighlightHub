@@ -9,7 +9,6 @@ class FeedbackAdmin(admin.ModelAdmin):
 admin.site.register(Feedback, FeedbackAdmin)
 admin.site.register(Relatorio)
 
-# Verifique se o `Membro` já foi registrado em outro lugar
 try:
     admin.site.register(Membro)
 except admin.sites.AlreadyRegistered:

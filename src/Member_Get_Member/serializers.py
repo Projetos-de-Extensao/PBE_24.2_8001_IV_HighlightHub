@@ -5,12 +5,12 @@ from django.utils import timezone
 class ConviteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Convite
-        fields = ['convidado_email']  # Exibe apenas o email na representação da API
+        fields = ['convidado_email']  #Exibe apenas o email na API
         extra_kwargs = {
             'data_criacao': {'read_only': True},  # Define como somente leitura
             'data_expiracao': {'read_only': True},  # Define como somente leitura
             'status': {'read_only': True},  # Define como somente leitura
-            'limite': {'read_only': True},  # Define como somente leitura, se necessário
+            'limite': {'read_only': True},  # Define como somente leitura
             'convidador': {'read_only': True},  # Define como somente leitura
         }
 
@@ -18,7 +18,7 @@ class ConviteSerializer(serializers.ModelSerializer):
         validated_data['data_criacao'] = timezone.now()
         validated_data['data_expiracao'] = timezone.now() + timezone.timedelta(days=30)
         validated_data['status'] = 'pendente'  # Define um valor padrão para status
-        validated_data['convidador'] = self.context['request'].user.membro  # Supondo que você tenha um relacionamento com o usuário
+        validated_data['convidador'] = self.context['request'].user.membro 
         
         return super().create(validated_data)
 
