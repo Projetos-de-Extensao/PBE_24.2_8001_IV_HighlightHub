@@ -15,9 +15,7 @@ class Convite(models.Model):
     convidado_email = models.EmailField(null=True) 
     status = models.CharField(max_length=20, choices=STATUS_CONVITE, default='pendente')
     data_criacao = models.DateTimeField(default=timezone.now)
-    data_expiracao = models.DateTimeField()  
-    limite = models.IntegerField(default=10)
-
+    data_expiracao = models.DateTimeField()
 
     def __str__(self):
         return f"Convite de {self.convidador.user.username} para {self.convidado_email} - {self.status}"
@@ -35,11 +33,13 @@ class Convite(models.Model):
             self.save()
             return False
 
+
 class Recompensa(models.Model):
     tipo = models.CharField(max_length=50)
 
     def __str__(self):
         return f"{self.tipo}"
+
 
 class Sistema(models.Model):
     feedbacks = models.ManyToManyField(Feedback, related_name='sistemas')
@@ -60,8 +60,9 @@ class Sistema(models.Model):
         return relatorio.gerar_relatorio()
 
     def registrar_convite(self, membro, convidado_email):
-        if membro.convites_enviados.filter(status='pendente').count() >= 10:
-            raise ValueError("Limite de convites pendentes atingido")
+        # Limitar convites pendentes a 5
+        if membro.convites_enviados.filter(status='pendente').count() >= 5:
+            raise ValueError("Limite de convites pendentes atingido.")
 
         convite = Convite.objects.create(convidador=membro, convidado_email=convidado_email)
         self.convites.add(convite)
@@ -80,6 +81,7 @@ class Sistema(models.Model):
         recompensa_instancia = Recompensa.objects.create(tipo=recompensa.tipo)
         membro.recompensas.add(recompensa_instancia)
         return recompensa_instancia
+
 
 class Administrador(models.Model):
     user = models.OneToOneField(Membro, on_delete=models.CASCADE)
