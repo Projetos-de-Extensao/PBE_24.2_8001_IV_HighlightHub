@@ -18,3 +18,5 @@ title: Home
 ## Instalação
 **Linguagens**: Python<br>
 **Tecnologias**: Django e SQLite<br>
+
+https://www.canva.com/design/DAGXJbBQGJA/SR9HwMkINHtHrqr7zDWaww/edit
